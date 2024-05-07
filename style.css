@@ -8,9 +8,6 @@ body {
   background-color: hsl(212, 45%, 89%);
   font-family: "Outfit", sans-serif;
   font-size: 15px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 img {
@@ -23,8 +20,8 @@ img {
   padding: 15px;
   border-radius: 20px;
   box-shadow: 10px 20px 10px #ccd8e6;
-  width: 330px;
-  height: fit-content;
+  max-width: 330px;
+  min-height: fit-content;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -51,97 +48,9 @@ img {
 }
 
 footer {
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
   text-align: center;
-}
-
-@media (max-width: 1440px) {
-  .container {
-    background-color: hsl(0, 0%, 100%);
-    padding: 15px;
-    border-radius: 20px;
-    box-shadow: 10px 10px 10px #ccd8e6;
-    max-width: 25%;
-  }
-
-  .text {
-    text-align: center;
-    margin: 15px 9px 20px 9px;
-    padding: 5px;
-  }
-}
-
-@media (max-width: 900px) {
-  .container {
-    background-color: hsl(0, 0%, 100%);
-    padding: 15px;
-    border-radius: 20px;
-    box-shadow: 10px 10px 10px #ccd8e6;
-    max-width: 25%;
-  }
-
-  .text {
-    text-align: center;
-    margin: 15px 9px 20px 9px;
-    padding: 5px;
-  }
-
-  .text h1 {
-    font-size: 20px;
-    color: hsl(218, 44%, 22%);
-  }
-}
-
-@media (max-width: 900px) {
-  .container {
-    background-color: hsl(0, 0%, 100%);
-    padding: 15px;
-    border-radius: 20px;
-    box-shadow: 10px 10px 10px #ccd8e6;
-    max-width: 50%;
-  }
-
-  .text {
-    text-align: center;
-    margin: 15px 9px 20px 9px;
-    padding: 2px;
-  }
-
-  .text h1 {
-    font-size: 20px;
-    color: hsl(218, 44%, 22%);
-  }
-
-  .text p {
-    font-size: 15px;
-    color: hsl(220, 15%, 55%);
-    margin-top: 15px;
-    text-align: center;
-    text-indent: 4%;
-    padding: 5px;
-  }
-}
-
-@media (max-width: 400px) {
-  .container {
-    background-color: hsl(0, 0%, 100%);
-    padding: 15px;
-    border-radius: 20px;
-    box-shadow: 10px 10px 10px #ccd8e6;
-    max-width: 80%;
-  }
-
-  .text {
-    text-align: center;
-    margin: 15px 5px 20px 5px;
-    padding: 2px;
-  }
-
-  .text h1 {
-    font-size: 20px;
-    color: hsl(218, 44%, 22%);
-  }
+  bottom: 0;
+  left: 0;
+  right: 0;
+  position: absolute;
 }
