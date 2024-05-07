@@ -34,7 +34,7 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### Useful resources
 
-- [YouTube](https://www.youtube.com/watch?v=JFyMWwOxHYM) - for some codes to center my elements fairly 😁
+- [CSS: center things](https://www.w3.org/Style/Examples/007/center.en.html) - to center elements in a webpage
 - [W3Schools](https://www.w3schools.com/) - for box shadow and fixed footer
 - [ColorPick Eyedropper](https://chromewebstore.google.com/detail/colorpick-eyedropper/ohcpnigalekghcmgcdcenkpelffpdolg) - to easily get a color value in a webpage; used this for the shadow color
 
