@@ -42,3 +42,4 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 - GitHub - [ren](https://github.com/ktmagno)
 - Frontend Mentor - [@ktmagno](https://www.frontendmentor.io/profile/ktmagno)
+- Twitter - [@ktmagno](https://www.twitter.com/yourusername)
